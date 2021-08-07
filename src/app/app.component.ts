@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'resume';
+  title = 'Resume';
+  name: string= 'Linda Crook';
+  address: string= "1032 Buckskin Trail, Xenia, Ohio 45385";
+  phone: string= "937-830-9337";
+  email: string= "lindacrook.44@gmail.com";
 }
